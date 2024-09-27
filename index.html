@@ -1,0 +1,89 @@
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="block" id="block1">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum perferendis quia ea vitae beatae tenetur ex praesentium ratione? Voluptas distinctio voluptates at similique quidem alias fuga. Aperiam pariatur perferendis, delectus magni perspiciatis minima? Dolore quia ex inventore dicta incidunt optio ab deserunt ipsum! Ipsa id, quos maiores placeat esse distinctio, delectus officia neque quas repellendus explicabo saepe consequatur eaque mollitia. Animi distinctio odit error hic excepturi expedita accusamus recusandae aut cupiditate libero eligendi minima eveniet dolorem, doloremque in fugiat odio dolore corporis magni natus deleniti? Soluta error aperiam debitis nostrum accusantium odio aliquam rem mollitia consequatur? Eius est distinctio quam.</p>
+    </div>
+    <div class="block" id="block2">
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum perferendis quia ea vitae beatae tenetur ex praesentium ratione? Voluptas distinctio voluptates at similique quidem alias fuga. Aperiam pariatur perferendis, delectus magni perspiciatis minima? Dolore quia ex inventore dicta incidunt optio ab deserunt ipsum! Ipsa id, quos maiores placeat esse distinctio, delectus officia neque quas repellendus explicabo saepe consequatur eaque mollitia. Animi distinctio odit error hic excepturi expedita accusamus recusandae aut cupiditate libero eligendi minima eveniet dolorem, doloremque in fugiat odio dolore corporis magni natus deleniti? Soluta error aperiam debitis nostrum accusantium odio aliquam rem mollitia consequatur? Eius est distinctio quam.</p>
+    </div>
+    <div class="block" id="block3">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum perferendis quia ea vitae beatae tenetur ex praesentium ratione? Voluptas distinctio voluptates at similique quidem alias fuga. Aperiam pariatur perferendis, delectus magni perspiciatis minima? Dolore quia ex inventore dicta incidunt optio ab deserunt ipsum! Ipsa id, quos maiores placeat esse distinctio, delectus officia neque quas repellendus explicabo saepe consequatur eaque mollitia. Animi distinctio odit error hic excepturi expedita accusamus recusandae aut cupiditate libero eligendi minima eveniet dolorem, doloremque in fugiat odio dolore corporis magni natus deleniti? Soluta error aperiam debitis nostrum accusantium odio aliquam rem mollitia consequatur? Eius est distinctio quam.</p>
+    </div>
+    <div class="block" id="block4">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum perferendis quia ea vitae beatae tenetur ex praesentium ratione? Voluptas distinctio voluptates at similique quidem alias fuga. Aperiam pariatur perferendis, delectus magni perspiciatis minima? Dolore quia ex inventore dicta incidunt optio ab deserunt ipsum! Ipsa id, quos maiores placeat esse distinctio, delectus officia neque quas repellendus explicabo saepe consequatur eaque mollitia. Animi distinctio odit error hic excepturi expedita accusamus recusandae aut cupiditate libero eligendi minima eveniet dolorem, doloremque in fugiat odio dolore corporis magni natus deleniti? Soluta error aperiam debitis nostrum accusantium odio aliquam rem mollitia consequatur? Eius est distinctio quam.</p>
+    </div>
+
+    <div id="phoneModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>89872766705</p>
+        </div>
+    </div>
+
+    <script src="js/js.js"></script>
+</body>
+</html>
+<style>
+    body {
+    margin: 0;
+    max-width: 1400px;
+}
+
+.block {
+    height: 100%; 
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+p{
+    font-size: 24px;
+    color: purple;
+    margin-left: 50px;
+}
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: pink;
+    margin: 15% auto; 
+    padding: 20px;
+    width: 80%; 
+}
+.modal-content p{
+    font-size: 20px;
+}
+
+.close {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+</style>
